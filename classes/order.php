@@ -5,7 +5,7 @@ class order
     public $product;
     public $quantity;
 
-    public function __construct($orderNumber, product $product, $quantity)
+    public function __construct($orderNumber, $product, $quantity)
     {
         $this->orderNumber = $orderNumber;
         $this->product = $product;
