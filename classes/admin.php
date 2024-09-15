@@ -15,9 +15,4 @@ class admin extends user
     {
         return parent::getUserInfo() . ", Role: $this->role";
     }
-
-    public function manageProduct(product $product)
-    {
-        return "Managing product: " . $product->getDetails();
-    }
 }
