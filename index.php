@@ -22,5 +22,3 @@ echo $customer->getCustomerInfo() . "<br>";
 echo $admin->getAdminInfo() . "<br>";
 echo $order->getOrderDetails() . "<br>";
 
-// Admin managing product
-echo $admin->manageProduct($product);
