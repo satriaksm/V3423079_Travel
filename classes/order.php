@@ -14,6 +14,6 @@ class order
 
     public function getOrderDetails()
     {
-        return "Order #: $this->orderNumber, Product: " . $this->product->getDetails() . ", Quantity: $this->quantity";
+        return "Order #: $this->orderNumber, " . $this->product->getDetails() . ", Quantity: $this->quantity";
     }
 }
