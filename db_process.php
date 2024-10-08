@@ -89,10 +89,7 @@ if (isset($_POST['nama_paket'], $_POST['id_hotel'], $_POST['id_destination'], $_
     } else {
         echo "Error: " . $stmt->error;
     }
-} else {
-    echo "Semua field harus diisi!";
 }
-
 if (isset($_POST['username'], $_POST['password'], $_POST['email'], $_POST['gender'])) {
     // Proses register
     $username = $_POST['username'];
@@ -119,4 +116,3 @@ if (isset($_POST['username'], $_POST['password'], $_POST['email'], $_POST['gende
     }
 }
 
-?>
